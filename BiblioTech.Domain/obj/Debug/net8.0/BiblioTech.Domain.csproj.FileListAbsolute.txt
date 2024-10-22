@@ -1,0 +1,22 @@
+C:\Users\darwi\source\repos\BiblioTech\BiblioTech.Domain\bin\Debug\net8.0\BiblioTech.Domain.deps.json
+C:\Users\darwi\source\repos\BiblioTech\BiblioTech.Domain\bin\Debug\net8.0\BiblioTech.Domain.dll
+C:\Users\darwi\source\repos\BiblioTech\BiblioTech.Domain\bin\Debug\net8.0\BiblioTech.Domain.pdb
+C:\Users\darwi\source\repos\BiblioTech\BiblioTech.Domain\obj\Debug\net8.0\BiblioTech.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\darwi\source\repos\BiblioTech\BiblioTech.Domain\obj\Debug\net8.0\BiblioTech.Domain.AssemblyInfoInputs.cache
+C:\Users\darwi\source\repos\BiblioTech\BiblioTech.Domain\obj\Debug\net8.0\BiblioTech.Domain.AssemblyInfo.cs
+C:\Users\darwi\source\repos\BiblioTech\BiblioTech.Domain\obj\Debug\net8.0\BiblioTech.Domain.csproj.CoreCompileInputs.cache
+C:\Users\darwi\source\repos\BiblioTech\BiblioTech.Domain\obj\Debug\net8.0\BiblioTech.Domain.dll
+C:\Users\darwi\source\repos\BiblioTech\BiblioTech.Domain\obj\Debug\net8.0\refint\BiblioTech.Domain.dll
+C:\Users\darwi\source\repos\BiblioTech\BiblioTech.Domain\obj\Debug\net8.0\BiblioTech.Domain.pdb
+C:\Users\darwi\source\repos\BiblioTech\BiblioTech.Domain\obj\Debug\net8.0\ref\BiblioTech.Domain.dll
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\Verificación y Validación de Software\BiblioTech\BiblioTech.Domain\bin\Debug\net8.0\BiblioTech.Domain.deps.json
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\Verificación y Validación de Software\BiblioTech\BiblioTech.Domain\bin\Debug\net8.0\BiblioTech.Domain.dll
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\Verificación y Validación de Software\BiblioTech\BiblioTech.Domain\bin\Debug\net8.0\BiblioTech.Domain.pdb
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\Verificación y Validación de Software\BiblioTech\BiblioTech.Domain\obj\Debug\net8.0\BiblioTech.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\Verificación y Validación de Software\BiblioTech\BiblioTech.Domain\obj\Debug\net8.0\BiblioTech.Domain.AssemblyInfoInputs.cache
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\Verificación y Validación de Software\BiblioTech\BiblioTech.Domain\obj\Debug\net8.0\BiblioTech.Domain.AssemblyInfo.cs
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\Verificación y Validación de Software\BiblioTech\BiblioTech.Domain\obj\Debug\net8.0\BiblioTech.Domain.csproj.CoreCompileInputs.cache
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\Verificación y Validación de Software\BiblioTech\BiblioTech.Domain\obj\Debug\net8.0\BiblioTech.Domain.dll
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\Verificación y Validación de Software\BiblioTech\BiblioTech.Domain\obj\Debug\net8.0\refint\BiblioTech.Domain.dll
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\Verificación y Validación de Software\BiblioTech\BiblioTech.Domain\obj\Debug\net8.0\BiblioTech.Domain.pdb
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\Verificación y Validación de Software\BiblioTech\BiblioTech.Domain\obj\Debug\net8.0\ref\BiblioTech.Domain.dll

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "qAevXoQxO7TsVbI/4En8rHkoeAy3pcmkUHuRlLLtuD4=",
+  "Source": "BiblioTech.Api",
+  "BasePath": "_content/BiblioTech.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,30 @@
+C:\Users\darwi\source\repos\BiblioTech\Persistence\obj\Debug\net8.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\darwi\source\repos\BiblioTech\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfoInputs.cache
+C:\Users\darwi\source\repos\BiblioTech\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfo.cs
+C:\Users\darwi\source\repos\BiblioTech\Persistence\obj\Debug\net8.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\darwi\source\repos\BiblioTech\Persistence\bin\Debug\net8.0\Persistence.deps.json
+C:\Users\darwi\source\repos\BiblioTech\Persistence\bin\Debug\net8.0\Persistence.dll
+C:\Users\darwi\source\repos\BiblioTech\Persistence\bin\Debug\net8.0\Persistence.pdb
+C:\Users\darwi\source\repos\BiblioTech\Persistence\bin\Debug\net8.0\BiblioTech.Domain.dll
+C:\Users\darwi\source\repos\BiblioTech\Persistence\bin\Debug\net8.0\BiblioTech.Domain.pdb
+C:\Users\darwi\source\repos\BiblioTech\Persistence\obj\Debug\net8.0\Persistence.csproj.AssemblyReference.cache
+C:\Users\darwi\source\repos\BiblioTech\Persistence\obj\Debug\net8.0\Persiste.61C28332.Up2Date
+C:\Users\darwi\source\repos\BiblioTech\Persistence\obj\Debug\net8.0\Persistence.dll
+C:\Users\darwi\source\repos\BiblioTech\Persistence\obj\Debug\net8.0\refint\Persistence.dll
+C:\Users\darwi\source\repos\BiblioTech\Persistence\obj\Debug\net8.0\Persistence.pdb
+C:\Users\darwi\source\repos\BiblioTech\Persistence\obj\Debug\net8.0\ref\Persistence.dll
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\Verificación y Validación de Software\BiblioTech\Persistence\bin\Debug\net8.0\Persistence.deps.json
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\Verificación y Validación de Software\BiblioTech\Persistence\bin\Debug\net8.0\Persistence.dll
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\Verificación y Validación de Software\BiblioTech\Persistence\bin\Debug\net8.0\Persistence.pdb
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\Verificación y Validación de Software\BiblioTech\Persistence\bin\Debug\net8.0\BiblioTech.Domain.dll
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\Verificación y Validación de Software\BiblioTech\Persistence\bin\Debug\net8.0\BiblioTech.Domain.pdb
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\Verificación y Validación de Software\BiblioTech\Persistence\obj\Debug\net8.0\Persistence.csproj.AssemblyReference.cache
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\Verificación y Validación de Software\BiblioTech\Persistence\obj\Debug\net8.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\Verificación y Validación de Software\BiblioTech\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfoInputs.cache
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\Verificación y Validación de Software\BiblioTech\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfo.cs
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\Verificación y Validación de Software\BiblioTech\Persistence\obj\Debug\net8.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\Verificación y Validación de Software\BiblioTech\Persistence\obj\Debug\net8.0\Persiste.61C28332.Up2Date
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\Verificación y Validación de Software\BiblioTech\Persistence\obj\Debug\net8.0\Persistence.dll
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\Verificación y Validación de Software\BiblioTech\Persistence\obj\Debug\net8.0\refint\Persistence.dll
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\Verificación y Validación de Software\BiblioTech\Persistence\obj\Debug\net8.0\Persistence.pdb
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\Verificación y Validación de Software\BiblioTech\Persistence\obj\Debug\net8.0\ref\Persistence.dll

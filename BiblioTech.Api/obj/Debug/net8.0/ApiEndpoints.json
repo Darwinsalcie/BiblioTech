@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "BiblioTech.API.Controllers.LibrosController",
+    "Method": "Post",
+    "RelativePath": "api/Libros/CreateLibro",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "librosCreateDTO",
+        "Type": "BiblioTech.API.Models.Libros.LibrosCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BiblioTech.API.Controllers.LibrosController",
+    "Method": "GetAll",
+    "RelativePath": "api/Libros/GetLibro",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BiblioTech.API.Controllers.LibrosController",
+    "Method": "GetByAutor",
+    "RelativePath": "api/Libros/GetLibroByAutor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "autor",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BiblioTech.API.Controllers.LibrosController",
+    "Method": "Delete",
+    "RelativePath": "api/Libros/RemoveLibro/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BiblioTech.API.Controllers.LibrosController",
+    "Method": "Put",
+    "RelativePath": "api/Libros/UpdateLibro/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "librosUpdateDTO",
+        "Type": "BiblioTech.API.Models.Libros.LibrosUpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
