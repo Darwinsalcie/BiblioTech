@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using Persistence.Context;
+using Persistence.Exceptions;
 using Persistence.Interfaces;
 using Persistence.Models;
 using Persistence.RepositoryBase;
@@ -35,12 +36,13 @@ namespace Persistence.Repositories
 
         public async Task<DataResults<List<LibrosModel>>> GetAll()
         {
-            DataResults<List<LibrosModel>> results = new DataResults<List<LibrosModel>>();
+            var results = new DataResults<List<LibrosModel>>();
 
             try
             {
                 var query = await GetLibrosBaseQuery().ToListAsync();
                 results.Result = query;
+                results.Sucess = true;
 
             }
 
@@ -53,7 +55,6 @@ namespace Persistence.Repositories
 
             return results;
         }
-
 
         public async Task<List<LibrosModel>> GetLibrosByAuthor(string autor)
         {
@@ -149,50 +150,42 @@ namespace Persistence.Repositories
         private IQueryable<LibrosModel> GetLibrosBaseQuery()
         {
             return from libro in this.biblioTechDb.Libros
-                   where libro.isDeleted != true
-                   select new LibrosModel
+                   //where libro.isDeleted != true
+                   select new LibrosModel()
                    {
                        Id = libro.Id,
                        Tittle = libro.Tittle,
                        Autor = libro.Autor,
                        PublicationDate = libro.PublicationDate,
-                       CreationUser = libro.CreationUser,
-                       CreationDate = libro.CreationDate
+                       Status = libro.Status,
+                       //CreationUser = libro.CreationUser,
+                       //CreationDate = libro.CreationDate,
+                       //ModifyDate = libro.ModifyDate,
                    };
         }
 
-        public async Task<bool> Create(Libros entity)
+        public override async Task<bool> Create(Libros entity)
         {
             bool result = false;
             try
             {
-                // Crear una nueva instancia de la entidad
-                Libros nuevoLibro = new Libros
-                {
-                    Tittle = entity.Tittle,
-                    Autor = entity.Autor,
-                    Genero = entity.Genero,
-                    PublicationDate = entity.PublicationDate,
-                    CreationUser = entity.CreationUser, // Usuario que crea
-                    CreationDate = DateTime.UtcNow, // Asignar la fecha de creación
-                                                    // Puedes agregar más propiedades aquí según lo necesario
-                };
+                if (await base.Exists(libro => libro.Id == entity.Id))
+                
+                    throw new EntityDataException(this.configuration[GetEntityName + ":id_exists"]);
+                    result = await base.Create(entity);
+                
 
-                // Agregar la nueva entidad al contexto
-                await this.biblioTechDb.Libros.AddAsync(nuevoLibro);
-
-                // Guardar los cambios en la base de datos
-                result = await this.biblioTechDb.SaveChangesAsync() > 0;
+               
             }
             catch (Exception ex)
             {
-                this.logger.LogError(this.configuration["Libros:error_create"], ex.ToString());
+                result = false;
+                this.logger.LogError(this.configuration[GetEntityName+":error_create"], ex.ToString());
             }
             return result;
         }
 
-
-        public async Task<bool> Update(Libros entity)
+        public async override Task<bool> Update(Libros entity)
         {
             bool result = false;
             try
@@ -212,7 +205,7 @@ namespace Persistence.Repositories
                     libroToUpdate.ModifyDate = DateTime.UtcNow; // Asignar la fecha de modificación
 
                     // Guardar los cambios en la base de datos
-                    result = await this.biblioTechDb.SaveChangesAsync() > 0;
+                    result = await base.Update(libroToUpdate);
                 }
                 else
                 {
@@ -227,7 +220,7 @@ namespace Persistence.Repositories
             return result;
         }
 
-        public async Task<bool> Remove(int id)
+        public async override Task<bool> Remove(int id)
         {
             bool result = false;
             try

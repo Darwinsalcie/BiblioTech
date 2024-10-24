@@ -50,12 +50,9 @@ namespace BiblioTech.API.Controllers
         [HttpPost("CreateLibro")]
         public async Task<IActionResult> Post([FromBody] LibrosCreateDTO librosCreateDTO)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
+            bool result = false;
 
-            var newLibro = new BiblioTech.Domain.Entities.Libros
+            result = await this.librosRepository.Create(new Domain.Entities.Libros()
             {
                 Tittle = librosCreateDTO.Tittle,
                 Autor = librosCreateDTO.Autor,
@@ -65,10 +62,9 @@ namespace BiblioTech.API.Controllers
                 ExpireDate = librosCreateDTO.ExpireDate,
                 Status = librosCreateDTO.Status,
                 CreationUser = librosCreateDTO.CreationUser,
-                CreationDate = DateTime.UtcNow
-            };
-
-            bool result = await librosRepository.Create(newLibro);
+                CreationDate = librosCreateDTO.CreationDate,
+                //isDeleted = librosCreateDTO.IsDeleted = false,
+            });
 
             if (!result)
             {

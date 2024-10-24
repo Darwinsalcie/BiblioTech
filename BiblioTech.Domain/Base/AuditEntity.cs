@@ -13,7 +13,7 @@ namespace BiblioTech.Domain.Base
         public DateTime? ModifyDate { get; set; }
         public int? ModifyUser { get; set; }
         public DateTime? DeletedDate { get; set; }
-        public int? DeletedUser { get; set; }
+        public int? DeleteUser { get; set; }
         public bool? isDeleted { get; set; }
     }
 }

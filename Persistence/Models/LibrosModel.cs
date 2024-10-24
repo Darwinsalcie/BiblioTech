@@ -4,9 +4,9 @@ using BiblioTech.Domain.Base;
 
 namespace Persistence.Models
 {
-    public class LibrosModel: AuditEntity<int>
+    public class LibrosModel
     {
-        public override int Id { get; set; }
+        public int Id { get; set; }
 
         public string Tittle { get; set; }
         public string Autor { get; set; }
@@ -15,6 +15,8 @@ namespace Persistence.Models
         public DateTime? PublicationDate { get; set; }
         public DateTime ExpireDate { get; set; }
         public string Status { get; set; }
+        //public DateTime? ModifyDate { get; set; }
+        public bool isDeleted { get; set; } = false; // Valor predeterminado
 
     }
 }

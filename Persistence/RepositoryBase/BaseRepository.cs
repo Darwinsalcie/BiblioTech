@@ -17,40 +17,47 @@ namespace Persistence.RepositoryBase
             _dbSet = _dbContext.Set<TEntity>();
         }
 
-        public async Task<bool> Create(TEntity entity)
+        public virtual async Task<bool> Create(TEntity entity)
         {
+            bool result = false;
             try
             {
-                await _dbSet.AddAsync(entity);
-                return await _dbContext.SaveChangesAsync() > 0;
+                _dbSet.Add(entity);
+                await _dbContext.SaveChangesAsync();
+                result = true;
             }
             catch (Exception ex)
             {
                 // Manejar la excepción (puedes registrar el error o lanzar otra excepción personalizada)
-                // Log.Error(ex.Message);
-                return false;
+                //Log.Error(ex.Message);
+                result = false;
             }
+
+            return result;
         }
 
 
 
-        public async Task<bool> Exists(Expression<Func<TEntity, bool>> filter)
+        public virtual async Task<bool> Exists(Expression<Func<TEntity, bool>> filter)
         {
+            bool result = false;    
             try
             {
-                return await _dbSet.AnyAsync(filter);
+                result = await _dbSet.AnyAsync(filter);
+
             }
             catch (Exception ex)
             {
                 // Manejar la excepción
                 // Log.Error(ex.Message);
-                return false;
+                result = false;
             }
+            return result;
         }
 
 
 
-        public async Task<List<TEntity>> GetAll()
+        public virtual async Task<List<TEntity>> GetAll()
         {
             try
             {
@@ -65,7 +72,7 @@ namespace Persistence.RepositoryBase
         }
 
 
-        public async Task<TEntity> GetByCondition(Expression<Func<TEntity, bool>> filter)
+        public virtual async Task<TEntity> GetByCondition(Expression<Func<TEntity, bool>> filter)
         {
             try
             {
@@ -80,7 +87,7 @@ namespace Persistence.RepositoryBase
         }
 
 
-        public async Task<bool> Remove(TType Id)
+        public virtual async Task<bool> Remove(TType Id)
         {
             try
             {
@@ -99,7 +106,7 @@ namespace Persistence.RepositoryBase
         }
 
 
-        public async Task<bool> Update(TEntity entity)
+        public virtual async Task<bool> Update(TEntity entity)
         {
             try
             {
