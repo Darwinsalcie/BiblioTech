@@ -1,14 +1,12 @@
-﻿using BiblioTech.Domain.Base;
-
-namespace BiblioTech.Domain.Entities
+﻿namespace Persistence.Models
 {
-    public class Notificaciones : AuditEntity<int>
+    public class NotificacionesModel
     {
-        public override int Id { get; set; }
+        public  int Id { get; set; }
         public string Type { get; set; }
         public string Message { get; set; }
         public int UserId { get; set; }
         public DateTime FechaEnvio { get; set; }
-
+        public bool isDeleted { get; set; } = false; // Valor predeterminado
     }
 }

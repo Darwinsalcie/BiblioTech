@@ -63,7 +63,7 @@ namespace Persistence.Repositories
             }
             catch (Exception ex)
             {
-                this.logger.LogError(this.configuration[GetEntityName() + ":error_get_libros_by_author"], ex.ToString());
+                this.logger.LogError(this.configuration[":error_getting" + GetEntityName()], ex.ToString());
                 throw;
             }
             return result;
@@ -198,6 +198,8 @@ namespace Persistence.Repositories
                     libroToUpdate.Autor = entity.Autor;
                     libroToUpdate.Genero = entity.Genero;
                     libroToUpdate.PublicationDate = entity.PublicationDate;
+                    libroToUpdate.ExpireDate = entity.ExpireDate;
+                    libroToUpdate.Status = entity.Status;
                     libroToUpdate.ModifyUser = entity.ModifyUser; // Actualizar usuario de modificación
                     libroToUpdate.ModifyDate = DateTime.UtcNow; // Asignar la fecha de modificación
 

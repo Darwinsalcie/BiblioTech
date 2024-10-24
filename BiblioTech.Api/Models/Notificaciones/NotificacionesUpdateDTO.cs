@@ -1,14 +1,13 @@
-﻿using BiblioTech.Domain.Base;
+﻿using BiblioTech.API.Models.BaseDTO;
 
-namespace BiblioTech.Domain.Entities
+namespace BiblioTech.API.Models.Notificaciones
 {
-    public class Notificaciones : AuditEntity<int>
+    public record class NotificacionesUpdateDTO : BaseUpdateEntityDTO
     {
-        public override int Id { get; set; }
+
         public string Type { get; set; }
         public string Message { get; set; }
         public int UserId { get; set; }
         public DateTime FechaEnvio { get; set; }
-
     }
 }

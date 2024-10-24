@@ -20,3 +20,4 @@ C:\Users\darwi\OneDrive - Universidad APEC - Académico\Verificación y Validaci
 C:\Users\darwi\OneDrive - Universidad APEC - Académico\Verificación y Validación de Software\BiblioTech\BiblioTech.Domain\obj\Debug\net8.0\refint\BiblioTech.Domain.dll
 C:\Users\darwi\OneDrive - Universidad APEC - Académico\Verificación y Validación de Software\BiblioTech\BiblioTech.Domain\obj\Debug\net8.0\BiblioTech.Domain.pdb
 C:\Users\darwi\OneDrive - Universidad APEC - Académico\Verificación y Validación de Software\BiblioTech\BiblioTech.Domain\obj\Debug\net8.0\ref\BiblioTech.Domain.dll
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\Verificación y Validación de Software\BiblioTech\BiblioTech.Domain\obj\Debug\net8.0\BiblioTech.Domain.sourcelink.json
