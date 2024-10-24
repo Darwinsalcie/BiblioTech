@@ -72,3 +72,4 @@ C:\Users\darwi\OneDrive - Universidad APEC - Académico\Verificación y Validaci
 C:\Users\darwi\OneDrive - Universidad APEC - Académico\Verificación y Validación de Software\BiblioTech\BiblioTech.Api\obj\Debug\net8.0\BiblioTech.Api.pdb
 C:\Users\darwi\OneDrive - Universidad APEC - Académico\Verificación y Validación de Software\BiblioTech\BiblioTech.Api\obj\Debug\net8.0\BiblioTech.Api.genruntimeconfig.cache
 C:\Users\darwi\OneDrive - Universidad APEC - Académico\Verificación y Validación de Software\BiblioTech\BiblioTech.Api\obj\Debug\net8.0\ref\BiblioTech.Api.dll
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\Verificación y Validación de Software\BiblioTech\BiblioTech.Api\obj\Debug\net8.0\BiblioTech.Api.sourcelink.json

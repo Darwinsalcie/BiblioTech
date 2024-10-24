@@ -11,11 +11,6 @@ using Persistence.Models;
 using Persistence.RepositoryBase;
 using System.Data;
 
-
-
-
-
-
 namespace Persistence.Repositories
 {
     public class LibrosRepository : BaseRepository<Libros, int>, ILibrosRepository
@@ -150,7 +145,7 @@ namespace Persistence.Repositories
         private IQueryable<LibrosModel> GetLibrosBaseQuery()
         {
             return from libro in this.biblioTechDb.Libros
-                   //where libro.isDeleted != true
+                   where libro.isDeleted != true
                    select new LibrosModel()
                    {
                        Id = libro.Id,
@@ -158,6 +153,8 @@ namespace Persistence.Repositories
                        Autor = libro.Autor,
                        PublicationDate = libro.PublicationDate,
                        Status = libro.Status,
+                       Genero = libro.Genero,
+                       ISBN = libro.ISBN,
                        //CreationUser = libro.CreationUser,
                        //CreationDate = libro.CreationDate,
                        //ModifyDate = libro.ModifyDate,
