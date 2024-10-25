@@ -42,7 +42,7 @@ namespace BiblioTech.API.Controllers
 
             if (result == null || result.Count == 0)
             {
-                return NotFound(new { Message = "No se encontraron libros para el autor especificado." });
+                return NotFound(new { Message = "No se encontraron notificaciones para el autor especificado." });
             }
 
 

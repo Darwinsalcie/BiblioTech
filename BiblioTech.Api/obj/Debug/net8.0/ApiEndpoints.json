@@ -235,5 +235,100 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BiblioTech.Api.Controllers.RolesController",
+    "Method": "Post",
+    "RelativePath": "api/Roles/CreateRole",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rolesCreateDTO",
+        "Type": "BiblioTech.Api.Models.Roles.RolesCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BiblioTech.Api.Controllers.RolesController",
+    "Method": "GetAll",
+    "RelativePath": "api/Roles/GetRoles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BiblioTech.Api.Controllers.RolesController",
+    "Method": "GetById",
+    "RelativePath": "api/Roles/GetRolesById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BiblioTech.Api.Controllers.RolesController",
+    "Method": "GetByRol",
+    "RelativePath": "api/Roles/GetRolesByRole",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rol",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BiblioTech.Api.Controllers.RolesController",
+    "Method": "Delete",
+    "RelativePath": "api/Roles/RemoveRole/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BiblioTech.Api.Controllers.RolesController",
+    "Method": "Put",
+    "RelativePath": "api/Roles/UpdateRoles/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "rolesUpdateDTO",
+        "Type": "BiblioTech.Api.Models.Roles.RolesUpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

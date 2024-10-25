@@ -86,7 +86,6 @@ namespace Persistence.Repositories
             return result;
         }
     
-
         public override async Task<bool> Create(Notificaciones entity)
         {
             bool result = false;
