@@ -13,6 +13,7 @@ namespace Persistence.Context
 
         public DbSet<Libros> Libros { get; set; }
         public DbSet<Notificaciones> Notificaciones { get; set; }
+        public DbSet<Reservas> Reservas { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             // Configuración para establecer el valor predeterminado de isDeleted
@@ -22,6 +23,10 @@ namespace Persistence.Context
 
             modelBuilder.Entity<Notificaciones>()
                 .Property(notificacion => notificacion.isDeleted)
+                .HasDefaultValue(false);
+
+            modelBuilder.Entity<Reservas>()
+                .Property(reserv => reserv.isDeleted)
                 .HasDefaultValue(false);
 
             base.OnModelCreating(modelBuilder);

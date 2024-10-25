@@ -44,7 +44,7 @@
   {
     "ContainingType": "BiblioTech.API.Controllers.LibrosController",
     "Method": "Delete",
-    "RelativePath": "api/Libros/RemoveLibro/{id}",
+    "RelativePath": "api/Libros/RemoverLibro/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -152,6 +152,85 @@
       {
         "Name": "notificacionesUpdateDTO",
         "Type": "BiblioTech.API.Models.Notificaciones.NotificacionesUpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BiblioTech.Api.Controllers.ReservasController",
+    "Method": "Post",
+    "RelativePath": "api/Reservas/CreateReserva",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reservasCreateDTO",
+        "Type": "BiblioTech.Api.Models.Reserva.ReservasCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BiblioTech.Api.Controllers.ReservasController",
+    "Method": "GetAll",
+    "RelativePath": "api/Reservas/GetReservas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BiblioTech.Api.Controllers.ReservasController",
+    "Method": "GetReservasById",
+    "RelativePath": "api/Reservas/GetReservasById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BiblioTech.Api.Controllers.ReservasController",
+    "Method": "Delete",
+    "RelativePath": "api/Reservas/RemoverReserva/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BiblioTech.Api.Controllers.ReservasController",
+    "Method": "Put",
+    "RelativePath": "api/Reservas/UpdateReserva/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "reservasUpdateDTO",
+        "Type": "BiblioTech.Api.Models.Reserva.ReservasUpdateDTO",
         "IsRequired": true
       }
     ],

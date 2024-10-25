@@ -12,6 +12,7 @@ builder.Services.AddDbContext<BiblioTechDb>(options =>
 
 builder.Services.AddTransient<ILibrosRepository, LibrosRepository>();
 builder.Services.AddTransient<INotificacionesRepository, NotificacionesRepository>();
+builder.Services.AddTransient<IReservasRepository, ReservasRepository>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

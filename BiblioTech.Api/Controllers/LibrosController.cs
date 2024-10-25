@@ -105,7 +105,7 @@ namespace BiblioTech.API.Controllers
         }
 
         // DELETE api/<LibrosController>/5
-        [HttpDelete("RemoveLibro/{id}")]
+        [HttpDelete("RemoverLibro/{id}")]
         public async Task<IActionResult> Delete(int id)
         {
             bool result = await librosRepository.Remove(id);

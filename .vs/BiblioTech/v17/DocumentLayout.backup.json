@@ -3,36 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\Verificaci\u00F3n y Validaci\u00F3n de Software\\BiblioTech\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{52FBC545-CEAD-4D2A-A5CB-1B28E8AE3228}|BiblioTech.Api\\BiblioTech.Api.csproj|c:\\users\\darwi\\onedrive - universidad apec - acad\u00E9mico\\verificaci\u00F3n y validaci\u00F3n de software\\bibliotech\\bibliotech.api\\controllers\\notificacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52FBC545-CEAD-4D2A-A5CB-1B28E8AE3228}|BiblioTech.Api\\BiblioTech.Api.csproj|solutionrelative:bibliotech.api\\controllers\\notificacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{52FBC545-CEAD-4D2A-A5CB-1B28E8AE3228}|BiblioTech.Api\\BiblioTech.Api.csproj|c:\\users\\darwi\\onedrive - universidad apec - acad\u00E9mico\\verificaci\u00F3n y validaci\u00F3n de software\\bibliotech\\bibliotech.api\\controllers\\reservascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52FBC545-CEAD-4D2A-A5CB-1B28E8AE3228}|BiblioTech.Api\\BiblioTech.Api.csproj|solutionrelative:bibliotech.api\\controllers\\reservascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52FBC545-CEAD-4D2A-A5CB-1B28E8AE3228}|BiblioTech.Api\\BiblioTech.Api.csproj|c:\\users\\darwi\\onedrive - universidad apec - acad\u00E9mico\\verificaci\u00F3n y validaci\u00F3n de software\\bibliotech\\bibliotech.api\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52FBC545-CEAD-4D2A-A5CB-1B28E8AE3228}|BiblioTech.Api\\BiblioTech.Api.csproj|solutionrelative:bibliotech.api\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2706883-B9EB-45EC-9020-33E5B34EF9B8}|Persistence\\Persistence.csproj|c:\\users\\darwi\\onedrive - universidad apec - acad\u00E9mico\\verificaci\u00F3n y validaci\u00F3n de software\\bibliotech\\persistence\\repositories\\reservasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2706883-B9EB-45EC-9020-33E5B34EF9B8}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repositories\\reservasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D2706883-B9EB-45EC-9020-33E5B34EF9B8}|Persistence\\Persistence.csproj|c:\\users\\darwi\\onedrive - universidad apec - acad\u00E9mico\\verificaci\u00F3n y validaci\u00F3n de software\\bibliotech\\persistence\\repositories\\librosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2706883-B9EB-45EC-9020-33E5B34EF9B8}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repositories\\librosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2706883-B9EB-45EC-9020-33E5B34EF9B8}|Persistence\\Persistence.csproj|c:\\users\\darwi\\onedrive - universidad apec - acad\u00E9mico\\verificaci\u00F3n y validaci\u00F3n de software\\bibliotech\\persistence\\repositories\\notificacionesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2706883-B9EB-45EC-9020-33E5B34EF9B8}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repositories\\notificacionesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{52FBC545-CEAD-4D2A-A5CB-1B28E8AE3228}|BiblioTech.Api\\BiblioTech.Api.csproj|c:\\users\\darwi\\onedrive - universidad apec - acad\u00E9mico\\verificaci\u00F3n y validaci\u00F3n de software\\bibliotech\\bibliotech.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52FBC545-CEAD-4D2A-A5CB-1B28E8AE3228}|BiblioTech.Api\\BiblioTech.Api.csproj|solutionrelative:bibliotech.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2706883-B9EB-45EC-9020-33E5B34EF9B8}|Persistence\\Persistence.csproj|c:\\users\\darwi\\onedrive - universidad apec - acad\u00E9mico\\verificaci\u00F3n y validaci\u00F3n de software\\bibliotech\\persistence\\interfaces\\inotificacionesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2706883-B9EB-45EC-9020-33E5B34EF9B8}|Persistence\\Persistence.csproj|solutionrelative:persistence\\interfaces\\inotificacionesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2706883-B9EB-45EC-9020-33E5B34EF9B8}|Persistence\\Persistence.csproj|c:\\users\\darwi\\onedrive - universidad apec - acad\u00E9mico\\verificaci\u00F3n y validaci\u00F3n de software\\bibliotech\\persistence\\interfaces\\ilibrosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2706883-B9EB-45EC-9020-33E5B34EF9B8}|Persistence\\Persistence.csproj|solutionrelative:persistence\\interfaces\\ilibrosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2706883-B9EB-45EC-9020-33E5B34EF9B8}|Persistence\\Persistence.csproj|c:\\users\\darwi\\onedrive - universidad apec - acad\u00E9mico\\verificaci\u00F3n y validaci\u00F3n de software\\bibliotech\\persistence\\models\\notificacionesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2706883-B9EB-45EC-9020-33E5B34EF9B8}|Persistence\\Persistence.csproj|solutionrelative:persistence\\models\\notificacionesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2706883-B9EB-45EC-9020-33E5B34EF9B8}|Persistence\\Persistence.csproj|c:\\users\\darwi\\onedrive - universidad apec - acad\u00E9mico\\verificaci\u00F3n y validaci\u00F3n de software\\bibliotech\\persistence\\context\\bibliotechdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2706883-B9EB-45EC-9020-33E5B34EF9B8}|Persistence\\Persistence.csproj|solutionrelative:persistence\\context\\bibliotechdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{52FBC545-CEAD-4D2A-A5CB-1B28E8AE3228}|BiblioTech.Api\\BiblioTech.Api.csproj|c:\\users\\darwi\\onedrive - universidad apec - acad\u00E9mico\\verificaci\u00F3n y validaci\u00F3n de software\\bibliotech\\bibliotech.api\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52FBC545-CEAD-4D2A-A5CB-1B28E8AE3228}|BiblioTech.Api\\BiblioTech.Api.csproj|solutionrelative:bibliotech.api\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,64 +38,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NotificacionesRepository.cs",
-              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\Verificaci\u00F3n y Validaci\u00F3n de Software\\BiblioTech\\Persistence\\Repositories\\NotificacionesRepository.cs",
-              "RelativeDocumentMoniker": "Persistence\\Repositories\\NotificacionesRepository.cs",
-              "ToolTip": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\Verificaci\u00F3n y Validaci\u00F3n de Software\\BiblioTech\\Persistence\\Repositories\\NotificacionesRepository.cs",
-              "RelativeToolTip": "Persistence\\Repositories\\NotificacionesRepository.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAswKMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T18:29:55.338Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "NotificacionesController.cs",
-              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\Verificaci\u00F3n y Validaci\u00F3n de Software\\BiblioTech\\BiblioTech.Api\\Controllers\\NotificacionesController.cs",
-              "RelativeDocumentMoniker": "BiblioTech.Api\\Controllers\\NotificacionesController.cs",
-              "ToolTip": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\Verificaci\u00F3n y Validaci\u00F3n de Software\\BiblioTech\\BiblioTech.Api\\Controllers\\NotificacionesController.cs*",
-              "RelativeToolTip": "BiblioTech.Api\\Controllers\\NotificacionesController.cs*",
-              "ViewState": "AgIAADQAAAAAAAAAAAAgwAkAAAAfAAAAAAAAAA==",
+              "Title": "ReservasController.cs",
+              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\Verificaci\u00F3n y Validaci\u00F3n de Software\\BiblioTech\\BiblioTech.Api\\Controllers\\ReservasController.cs",
+              "RelativeDocumentMoniker": "BiblioTech.Api\\Controllers\\ReservasController.cs",
+              "ToolTip": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\Verificaci\u00F3n y Validaci\u00F3n de Software\\BiblioTech\\BiblioTech.Api\\Controllers\\ReservasController.cs",
+              "RelativeToolTip": "BiblioTech.Api\\Controllers\\ReservasController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAIA1wFkAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T18:49:01.607Z",
+              "WhenOpened": "2024-10-25T01:04:52.529Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "INotificacionesRepository.cs",
-              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\Verificaci\u00F3n y Validaci\u00F3n de Software\\BiblioTech\\Persistence\\Interfaces\\INotificacionesRepository.cs",
-              "RelativeDocumentMoniker": "Persistence\\Interfaces\\INotificacionesRepository.cs",
-              "ToolTip": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\Verificaci\u00F3n y Validaci\u00F3n de Software\\BiblioTech\\Persistence\\Interfaces\\INotificacionesRepository.cs",
-              "RelativeToolTip": "Persistence\\Interfaces\\INotificacionesRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABEAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ReservasRepository.cs",
+              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\Verificaci\u00F3n y Validaci\u00F3n de Software\\BiblioTech\\Persistence\\Repositories\\ReservasRepository.cs",
+              "RelativeDocumentMoniker": "Persistence\\Repositories\\ReservasRepository.cs",
+              "ToolTip": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\Verificaci\u00F3n y Validaci\u00F3n de Software\\BiblioTech\\Persistence\\Repositories\\ReservasRepository.cs",
+              "RelativeToolTip": "Persistence\\Repositories\\ReservasRepository.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAA5wHsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T18:26:08.556Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "NotificacionesModel.cs",
-              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\Verificaci\u00F3n y Validaci\u00F3n de Software\\BiblioTech\\Persistence\\Models\\NotificacionesModel.cs",
-              "RelativeDocumentMoniker": "Persistence\\Models\\NotificacionesModel.cs",
-              "ToolTip": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\Verificaci\u00F3n y Validaci\u00F3n de Software\\BiblioTech\\Persistence\\Models\\NotificacionesModel.cs",
-              "RelativeToolTip": "Persistence\\Models\\NotificacionesModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T18:34:53.072Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BiblioTechDb.cs",
-              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\Verificaci\u00F3n y Validaci\u00F3n de Software\\BiblioTech\\Persistence\\Context\\BiblioTechDb.cs",
-              "RelativeDocumentMoniker": "Persistence\\Context\\BiblioTechDb.cs",
-              "ToolTip": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\Verificaci\u00F3n y Validaci\u00F3n de Software\\BiblioTech\\Persistence\\Context\\BiblioTechDb.cs",
-              "RelativeToolTip": "Persistence\\Context\\BiblioTechDb.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T19:06:12.602Z"
+              "WhenOpened": "2024-10-25T01:32:21.976Z",
+              "EditorCaption": ""
             }
           ]
         },
@@ -117,40 +70,41 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\Verificaci\u00F3n y Validaci\u00F3n de Software\\BiblioTech\\BiblioTech.Api\\Program.cs",
+              "RelativeDocumentMoniker": "BiblioTech.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\Verificaci\u00F3n y Validaci\u00F3n de Software\\BiblioTech\\BiblioTech.Api\\Program.cs",
+              "RelativeToolTip": "BiblioTech.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T01:33:14.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "LibrosRepository.cs",
               "DocumentMoniker": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\Verificaci\u00F3n y Validaci\u00F3n de Software\\BiblioTech\\Persistence\\Repositories\\LibrosRepository.cs",
               "RelativeDocumentMoniker": "Persistence\\Repositories\\LibrosRepository.cs",
               "ToolTip": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\Verificaci\u00F3n y Validaci\u00F3n de Software\\BiblioTech\\Persistence\\Repositories\\LibrosRepository.cs",
               "RelativeToolTip": "Persistence\\Repositories\\LibrosRepository.cs",
-              "ViewState": "AgIAAI8AAAAAAAAAAADwv90AAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAkwKIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T18:29:54.123Z"
+              "WhenOpened": "2024-10-25T01:32:33.39Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "LibrosController.cs",
               "DocumentMoniker": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\Verificaci\u00F3n y Validaci\u00F3n de Software\\BiblioTech\\BiblioTech.Api\\Controllers\\LibrosController.cs",
               "RelativeDocumentMoniker": "BiblioTech.Api\\Controllers\\LibrosController.cs",
               "ToolTip": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\Verificaci\u00F3n y Validaci\u00F3n de Software\\BiblioTech\\BiblioTech.Api\\Controllers\\LibrosController.cs",
               "RelativeToolTip": "BiblioTech.Api\\Controllers\\LibrosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAABgAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T18:50:28.106Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ILibrosRepository.cs",
-              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\Verificaci\u00F3n y Validaci\u00F3n de Software\\BiblioTech\\Persistence\\Interfaces\\ILibrosRepository.cs",
-              "RelativeDocumentMoniker": "Persistence\\Interfaces\\ILibrosRepository.cs",
-              "ToolTip": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\Verificaci\u00F3n y Validaci\u00F3n de Software\\BiblioTech\\Persistence\\Interfaces\\ILibrosRepository.cs",
-              "RelativeToolTip": "Persistence\\Interfaces\\ILibrosRepository.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T18:28:29.995Z"
+              "WhenOpened": "2024-10-25T00:43:33.803Z"
             }
           ]
         }

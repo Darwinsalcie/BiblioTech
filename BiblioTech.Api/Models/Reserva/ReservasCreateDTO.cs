@@ -1,12 +1,10 @@
-﻿
+﻿using BiblioTech.API.Models.BaseDTO;
 
-using BiblioTech.Domain.Base;
-
-namespace BiblioTech.Domain.Entities
+namespace BiblioTech.Api.Models.Reserva
 {
-    public class Reservas : AuditEntity<int>
+    public record ReservasCreateDTO : BaseSaveEntityDTO
     {
-        public override int Id { get; set ; }
+        public int Id { get; set; }
         public int UserId { get; set; }
         public int BookId { get; set; }
         public DateTime? ReservationDate { get; set; }
