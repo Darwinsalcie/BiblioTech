@@ -8,10 +8,7 @@ using Persistence.Exceptions;
 using Persistence.Interfaces;
 using Persistence.Models;
 using Persistence.RepositoryBase;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+
 
 namespace Persistence.Repositories
 {

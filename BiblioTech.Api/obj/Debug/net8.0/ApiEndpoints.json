@@ -330,5 +330,116 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BiblioTech.Api.Controllers.UsuariosController",
+    "Method": "Post",
+    "RelativePath": "api/Usuarios/CreateUsuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuariosCreateDTO",
+        "Type": "BiblioTech.Api.Models.Usuarios.UsuariosCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BiblioTech.Api.Controllers.UsuariosController",
+    "Method": "GetByName",
+    "RelativePath": "api/Usuarios/GetRolesByName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BiblioTech.Api.Controllers.UsuariosController",
+    "Method": "GetByRoleName",
+    "RelativePath": "api/Usuarios/GetRolesByRoleName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BiblioTech.Api.Controllers.UsuariosController",
+    "Method": "GetAll",
+    "RelativePath": "api/Usuarios/GetUsuarios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BiblioTech.Api.Controllers.UsuariosController",
+    "Method": "GetUsuariosById",
+    "RelativePath": "api/Usuarios/GetUsuariosById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BiblioTech.Api.Controllers.UsuariosController",
+    "Method": "Delete",
+    "RelativePath": "api/Usuarios/RemoveUsuario/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BiblioTech.Api.Controllers.UsuariosController",
+    "Method": "Put",
+    "RelativePath": "api/Usuarios/UpdateRoles/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "usuarioToUpdate",
+        "Type": "BiblioTech.Api.Models.Usuarios.UsuariosUpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
