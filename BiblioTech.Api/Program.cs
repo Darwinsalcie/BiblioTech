@@ -5,6 +5,18 @@ using Persistence.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
+// Configuración de CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll",
+        builder => builder.AllowAnyOrigin()
+                          .AllowAnyHeader()
+                          .AllowAnyMethod());
+});
+
+
+
 // Add services to the container.
 builder.Services.AddDbContext<BiblioTechDb>(options =>
                                              options.UseSqlServer(builder.Configuration.GetConnectionString("BibliotechDb")));
@@ -22,6 +34,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+app.UseCors("AllowAll");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

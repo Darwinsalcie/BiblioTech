@@ -349,38 +349,6 @@
   },
   {
     "ContainingType": "BiblioTech.Api.Controllers.UsuariosController",
-    "Method": "GetByName",
-    "RelativePath": "api/Usuarios/GetRolesByName",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "name",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "BiblioTech.Api.Controllers.UsuariosController",
-    "Method": "GetByRoleName",
-    "RelativePath": "api/Usuarios/GetRolesByRoleName",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "name",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "BiblioTech.Api.Controllers.UsuariosController",
     "Method": "GetAll",
     "RelativePath": "api/Usuarios/GetUsuarios",
     "HttpMethod": "GET",
@@ -407,6 +375,38 @@
   },
   {
     "ContainingType": "BiblioTech.Api.Controllers.UsuariosController",
+    "Method": "GetByName",
+    "RelativePath": "api/Usuarios/GetUsuariosByName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BiblioTech.Api.Controllers.UsuariosController",
+    "Method": "GetByRoleName",
+    "RelativePath": "api/Usuarios/GetUsuariosByRoleName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BiblioTech.Api.Controllers.UsuariosController",
     "Method": "Delete",
     "RelativePath": "api/Usuarios/RemoveUsuario/{id}",
     "HttpMethod": "DELETE",
@@ -424,7 +424,7 @@
   {
     "ContainingType": "BiblioTech.Api.Controllers.UsuariosController",
     "Method": "Put",
-    "RelativePath": "api/Usuarios/UpdateRoles/{id}",
+    "RelativePath": "api/Usuarios/UpdateUsuario/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,

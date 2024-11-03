@@ -50,7 +50,7 @@ namespace BiblioTech.Api.Controllers
             return Ok(result);
         }
 
-        [HttpGet("GetRolesByName")]
+        [HttpGet("GetUsuariosByName")]
         public async Task<IActionResult> GetByName(string name)
         {
             var result = await usuariosRepository.GetUsuariosByName(name);
@@ -64,7 +64,7 @@ namespace BiblioTech.Api.Controllers
             return Ok(result);
         }
 
-        [HttpGet("GetRolesByRoleName")]
+        [HttpGet("GetUsuariosByRoleName")]
         public async Task<IActionResult> GetByRoleName(string name)
         {
             var result = await usuariosRepository.GetUsuariosByRoleName(name);
@@ -104,7 +104,7 @@ namespace BiblioTech.Api.Controllers
         }
 
         // PUT api/<UsuariosController>/5
-        [HttpPut("UpdateRoles/{id}")]
+        [HttpPut("UpdateUsuario/{id}")]
         public async Task<IActionResult> Put(int id, [FromBody] UsuariosUpdateDTO usuarioToUpdate)
         {
             var usuarioExistente = await usuariosRepository.GetByCondition(us =>us.Id == id && us.isDeleted != true);
